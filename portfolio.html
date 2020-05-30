@@ -33,15 +33,18 @@
 
         <ul class="contacts list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">
-              <img src="./images/envelope.svg" alt="Иконка для мейла" />
-              info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="link highlight">
+              <!--  <img src="./images/envelope.svg" alt="Иконка для мейла" /> -->
+              <svg width="16" height="11.2">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="link">
-              <img src="./images/mobile.svg" alt="Иконка телефона" />
-              +38 096 111 11 11</a
+            <a href="tel:+380961111111" class="link highlight">
+              <svg width="10" height="15">
+                <use href="./images/symbol-defs.svg#icon-mobile"></use></svg
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -50,217 +53,221 @@
     <main>
       <section class="container section">
         <!-- скроем заголовок в CSS -->
-        <h1 class="name">Наши проекты</h1>
+        <h1 class="name visually-hidden">Наши проекты</h1>
         <ul class="variant list">
-          <li>
+          <li class="push">
             <button type="button" class="button-items">Все</button>
           </li>
-          <li>
+          <li class="push">
             <button type="button" class="button-items">Веб-сайты</button>
           </li>
-          <li>
+          <li class="push">
             <button type="button" class="button-items">Приложения</button>
           </li>
-          <li>
+          <li class="push">
             <button type="button" class="button-items">Дизайн</button>
           </li>
-          <li>
+          <li class="push">
             <button type="button" class="button-items">Маркетинг</button>
           </li>
         </ul>
         <ul class="project list flex">
           <li class="element">
-            <a href="#"
+            <a href="#" class="img"
               ><img
                 src="./images/technocryak.jpg"
                 alt=""
-                class="img"
-                width="380"
-                height="295"
+                width="370"
+                height="294"
             /></a>
-            <h2 class="project-title list">Технокряк</h2>
-            <p class="text list">Веб-сайт</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Технокряк</h2>
+              <p class="text list">Веб-сайт</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/poster.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/poster.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">
-              Постер New Orlean vs Golden Stars
-            </h2>
-            <p class="text list">Дизайн</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="text list">Дизайн</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/seafood.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/seafood.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Ресторан Seafood</h2>
-            <p class="text list">Приложение</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Ресторан Seafood</h2>
+              <p class="text list">Приложение</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
             <a href="#"
-              ><img
-                src="./images/prime.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+              ><img src="./images/prime.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Проект Prime</h2>
-            <p class="text list">Маркетинг</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Проект Prime</h2>
+              <p class="text list">Маркетинг</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/boxes.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/boxes.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Проект Boxes</h2>
-            <p class="text list">Приложение</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Проект Boxes</h2>
+              <p class="text list">Приложение</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/no-borders.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/design.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Inspiration has no Borders</h2>
-            <p class="text list">Веб-сайт</p>
-            <!--  <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Inspiration has no Borders</h2>
+              <p class="text list">Веб-сайт</p>
+              <!--  <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
+            <a href="#" class="img"
               ><img
                 src="./images/limedition.jpg"
                 alt=""
-                class="img"
-                width="380"
-                height="295"
+                width="370"
+                height="294"
             /></a>
-            <h2 class="project-title list">Издание Limited Edition</h2>
-            <p class="text list">Дизайн</p>
-            <!--  <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Издание Limited Edition</h2>
+              <p class="text list">Дизайн</p>
+              <!--  <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/lab.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/lab.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Проект LAB</h2>
-            <p class="text list">Маркетинг</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Проект LAB</h2>
+              <p class="text list">Маркетинг</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
           <li class="element">
-            <a href="#"
-              ><img
-                src="./images/business.jpg"
-                alt=""
-                class="img"
-                width="380"
-                height="295"
+            <a href="#" class="img"
+              ><img src="./images/desktop.jpg" alt="" width="370" height="294"
             /></a>
-            <h2 class="project-title list">Growing Business</h2>
-            <p class="text list">Приложение</p>
-            <!-- <p class="text-inside">
+            <div class="card">
+              <h2 class="project-title list">Growing Business</h2>
+              <p class="text list">Приложение</p>
+              <!-- <p class="text-inside">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p> -->
+            </div>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer container">
-      <div class="down">
-        <a href="#" class="logo">Web<span class="text"> Studio</span></a>
-        <address class="address">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <span class="contacts">
-            info@example.com <br />
-            +38 099 111 11 11</span
-          >
-        </address>
+    <footer>
+      <div class="footer container">
+        <div class="down">
+          <a href="#" class="logo">Web<span class="text"> Studio</span></a>
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26
+            <span class="contacts">
+              info@example.com <br />+38 099 111 11 11</span
+            >
+          </address>
+        </div>
+        <div class="slogan">
+          <div class="join">
+            <b class="word">присоединяйтесь</b>
+          </div>
+          <ul class="list">
+            <li class="label">
+              <!-- используем aria-label в ссылках для читалок -->
+              <a href="#" class="social-link accent" aria-label="Instagram">
+                <svg width="20" height="20">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="label">
+              <a href="#" class="social-link accent" aria-label="Twitter"
+                ><svg width="20" height="16.25">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="label">
+              <a href="#" class="social-link accent" aria-label="Facebook"
+                ><svg width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="label">
+              <a href="#" class="social-link accent" aria-label="LinkedIn"
+                ><svg width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button class="text button icon-send">
+            Подписаться
+            <svg width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
-      <div class="slogan">
-        <b class="word">присоединяйтесь</b>
-        <ul class="list">
-          <li>
-            <a href="#" aria-label="Instagram">Instagram</a>
-          </li>
-          <li>
-            <a href="#" aria-label="Twitter">Twitter</a>
-          </li>
-          <li>
-            <a href="#" aria-label="Facebook">Facebook</a>
-          </li>
-          <li>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <button class="text button">Подписаться</button>
+      <div class="copy container">
+        <p class="copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
-    <div class="copy container">
-      <p class="copyright">2020 | Developed by GoIT Students</p>
-    </div>
   </body>
 </html>
